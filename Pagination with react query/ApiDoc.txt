@@ -1,0 +1,19 @@
+baseUrl = http://localhost:3001/api/sms/
+
+1. Send Code (Post)
+        url = send-code/
+        body: {
+            phone: User phone number
+        }
+
+
+2. Verify Code (Post)
+        url = verify-code/
+        body: {
+            phone: User phone number,
+            code: Code sent
+        },
+        response: {
+            success: 200
+            Unsuccess: 422
+        }

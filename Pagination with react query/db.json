@@ -1,0 +1,14 @@
+{
+  "courses": [
+    { "id": 1, "title": "Js Expert", "price": "Free" },
+    { "id": 2, "title": "React Expert", "price": 4200000 },
+    { "id": 3, "title": "Nodejs Expert", "price": 4500000 },
+    { "id": 4, "title": "React 20 Libs", "price": 600000 },
+    { "id": 5, "title": "Py Expert", "price": "Free" },
+    { "id": 6, "title": "Php Expert", "price": 4200000 },
+    { "id": 7, "title": "Vue Expert", "price": 4500000 },
+    { "id": 8, "title": "React Native", "price": 600000 }
+  ],
+  "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
+  "profile": { "name": "typicode" }
+}
